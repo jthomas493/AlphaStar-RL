@@ -7,8 +7,8 @@ import time
 import os
 
 # my_env = os.environ.copy()
-# PATH = 'C:/Users/steff/Desktop/Project/project_folder2/venv2'
-my_env = "usr/sbin:/sbin:" + 'C:\Users\james\Desktop\DATA SCIENCE\NorthWestern\7. Spring 2022\MSDS 498\Capstone Project\project_folder2\venv2'
+# PATH = '/venv2'
+my_env = '..\venv2'
 
 class Sc2Env(gym.Env):
 	"""Custom Environment that follows gym interface"""
